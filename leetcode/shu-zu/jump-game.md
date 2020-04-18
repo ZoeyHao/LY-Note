@@ -11,7 +11,8 @@
 ## 解法1 动态规划
  - 从前向后遍历，找到每个元素只跳一步的话，可达的最大位置。
  - 如果前一个元素不可达到当前元素，则返回
- Java代码
+
+Java代码
 ```
 class Solution {
     public boolean canJump(int[] nums) {
@@ -32,7 +33,8 @@ class Solution {
  - 从后向前遍历数组
  - 判断当前位置能够到达终点，则将当前位置当作新的终点
  - 只有遇到0时，才会发生不可达的事件
-Java代码
+ 
+ Java代码
 ```
 class Solution {
     public boolean canJump(int[] nums) {
