@@ -1,0 +1,53 @@
+{
+    "description":"我的笔记本",
+    "extension": null,
+    "generator": "site",
+    "isbn": "loye-1",
+    "links": {
+        "sharing": {
+            "all": null,
+            "facebook": null,
+            "google": null,
+            "twitter": null,
+            "weibo": null
+        },
+        "sidebar": {}
+    },
+    "output": null,
+    "pdf": {
+        "fontSize": 12,
+        "footerTemplate": null,
+        "headerTemplate": null,
+        "margin": {
+            "bottom": 36,
+            "left": 62,
+            "right": 62,
+            "top": 36
+        },
+        "pageNumbers": false,
+        "paperSize": "a4"
+    },
+    "plugins": [
+        "back-to-top-button",
+        "chapter-fold",
+        "code",
+        "pageview-count",
+        "-lunr", 
+        "-search", 
+        "search-pro",
+        "hide-element",
+        "tbfed-pagefooter"
+    ],
+    "pluginsConfig": {
+        "hide-element": {
+            "elements": [".gitbook-link"]
+        },
+        "tbfed-pagefooter": {
+            "copyright":"Copyright &copy dsx2016.com 2019",
+            "modify_label": "该文章修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        }
+    },
+    "title": "CY-Note",
+    "variables": {}
+}
